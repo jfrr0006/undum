@@ -24,12 +24,12 @@
 
   </head>
   <body>
-    <!-- La siguiente sección es irrelevante para la versión de escritorio,
-          porque en los escritorios, la información del personaje y las herramientas
-          se puede mostrar al mismo tiempo. -->
+    <!-- Folgender Abschnitt ist fuer die Desktop-Version irrelevant,
+         weil auf Desktops die Charakter-Informationen und die Tools
+         gleichzeitig angezeigt werden koennen. -->
     <div id="toolbar">
-      <!-- La siguiente debe ser una versión corta del título; pensamiento
-            para mostrar en dispositivos móviles. -->
+      <!-- Das Folgende sollte eine Kurzversion des Titels sein; gedacht
+           fuer die Anzeige auf mobilen Geraeten. -->
       <h1>Undum</h1>
       <div class="nav">
         <a href="#" class="button" id="menu-button">Men&uuml;</a>
@@ -46,23 +46,23 @@
       <div id="tools_wrapper">
         <div id="info_panel" class="tools left">
 
-          <!-- Informacion del juego: Edita esto -->
+          <!-- Informationen zum Spiel: bearbeite dies -->
           <h1>Undum</h1>
           <p>
-            Undum es un sistema con el que puedes crear libros de juegos digitales. 
-            Se ejecuta completamente en el navegador del reproductor y fue dise&ntilde;ado 
-            para HTML 5 y CSS 3. Puede encontrar m&aacutes informaci&oacuten y el c&oacutedigo fuente  
-            <a href="http://github.com/idmillington/undum">aqu&iacute</a>.
+            Undum ist ein System, mit dem man digitale Spielb&uuml;cher erstellen
+            kann. Es l&auml;uft komplett im Browser des Spielers und wurde f&uuml;r HTML&#x200A;5 und
+            CSS&#x200A;3 entworfen. Weitere Informationen (auf Englisch) und den Quellcode
+            gibt es <a href="http://github.com/idmillington/undum">hier</a>.
           </p>
-          <!-- Fin de la información del juego -->
+          <!-- Ende der Informationen zum Spiel -->
 
           <div class='buttons'>
-            <button id="save">Guardar</button><button id="erase">Borrar</button>
+            <button id="save">Speichern</button><button id="erase">L&ouml;schen</button>
           </div>
         </div>
-                                                                                                       <!--Hasta aquí revisado: Hay que cambiar la informacion del juego-->
+
         <div id="character_panel" class="tools right">
-          <h1>Jugador</h1>
+          <h1>Spielfigur</h1>
           <div id="character">
             <div id="character_text">
               <div id="character_text_content"></div>
@@ -76,19 +76,18 @@
         <div id="title">
           <div class="label">
 
-            <!-- Título del juego: edita esto -->
-            <h1>RWBY <br>
-              La Aventura Gr&aacute;fica</h1>
-            <h2>Realizado por:</h2>
-	    <h3>Juan Francisco Ru&iacute;z Rodr&iacute;guez
-            <p>Alejandro Guti&eacute;rrez Guti&eacute;rrez</p></h3>
-            <!-- Fin del título del juego -->
+            <!-- Titel des Spiels: bearbeite dies -->
+            <h1>Undum-Tutorium <span class='fancy'> &amp;</span><br>
+              interaktives Beispiel</h1>
+            <h2>von I D Millington</h2>
+	    <h3>&uuml;bersetzt von StJohnLimbo</h3>
+            <!-- Ende des Spiel-Titels -->
 
-            <noscript><p class="noscript_message">Este juego requiere Javascript.</p></noscript>
-            <p class="click_message">Esperamos que te diviertas</p>
+            <noscript><p class="noscript_message">Dieses Spiel erfordert Javascript.</p></noscript>
+            <p class="click_message">Klicke hier, um anzufangen</p>
           </div>
         </div>
-                                                                                                        <!--Hasta aquí revisado: Personalizar estilo si queremos-->
+
         <div id="content_wrapper">
           <div id="content">
           </div>
@@ -110,9 +109,9 @@
       </div>
     </div> <!-- End of div.page -->
 
-    <!-- La siguiente sección contiene elementos de la interfaz de usuario,
-          que se copian y pegan en la página principal. Este bloque
-          siempre queda oculto. -->
+    <!-- Folgender Abschnitt enthaelt Elemente der Benutzeroberflaeche, 
+         die kopiert und in die Hauptseite eingefuegt werden. Dieser Block
+	 selbst bleibt immer versteckt. -->
     <div id="ui_library">
       <div id="quality" class="quality">
         <span class="name" data-attr="name"></span>
@@ -139,13 +138,13 @@
       <hr id="turn_separator">
     </div>
 
-    <!--  Este bloque no tiene que estar aquí, pero es
-          definido como oculto en el archivo CSS, así que aquí hay uno bueno
-          Lugar para acomodar contenido que sea posterior al código del juego
-          debe cargarse desde. En el archivo
-          tutorial.game.de.js puedes ver cómo funciona. -->
-    <div id="content_library">                            
-      <div id="s_rooms">                                                                                          /*En el fichero en ingles lo llama s_situations
+    <!-- Dieser Block muss nicht unbedingt hier stehen, aber er ist
+         in der CSS-Datei als versteckt definiert, daher ist hier eine gute
+	 Stelle, um Inhalte unterzubringen, die spaeter vom Code des Spiels
+         aus geladen werden sollen. In der Datei
+         tutorial.game.de.js kann man sehen, wie das funktioniert. -->
+    <div id="content_library">
+      <div id="s_rooms">
         <h1>Situationen</h1>
         <p>
           Jede Interaktion findet in Undum innerhalb einer 'Situation' statt.
@@ -162,7 +161,7 @@
       </div>
 
       <div id="s_saving">
-        <h1>Guardar, Cargar, Borrar</h1>
+        <h1>Speichern, Laden, L&ouml;schen</h1>
         <p>Was wir bisher noch nicht angesprochen haben, sind 
 	die Schaltfl&auml;chen 'Speichern' und 'L&ouml;schen' im Feld links. 
 	Diese werden nur dann angezeigt, wenn der Browser des Spielers
@@ -196,47 +195,8 @@
         <p class='transient'>
           Zeit f&uuml;r den <a href='last'>letzten Abschnitt</a>.
         </p>
-        <p class='transient'>                                                  /*desde aqui incluido
-          Vuelve a la lista de topics <a href='hub'>topic list</a>.
-        </p>                                                                   /*hasta aquí
       </div>
     </div>
-
-
-      <div id="implicit" class="situation" data-tags="topic"                    /*añadido desde aqui
-           data-heading="Implicit Choices" data-display-order="7"
-           data-choices="#example">
-        <p>When you're writing an Undum game, you often need certain
-          options to be available only when certain conditions hold. You
-          might have an option to remove a secret panel in a haunted
-          house, but that should only be visible if the character knows
-          where it is. If options are available in lots of situations, it
-          can be very difficult to keep track of what options are
-          allowed, and to produce just the right list of choices.</p>
-        <p>To help with this, Undum can generate a list of situation
-          links for you. It does this in three steps. Firstly, each
-          situation can be given one or more tags, this allows you to
-          easily ask for links to all situations with the 'in-hallway'
-          tag, for example. Secondly, situations can have
-          a <em>canView</em> method, which gets to decide whether that
-          situation should appear. That method can look at the
-          current state of the character to decide whether to appear
-          or not. Thirdly, <em>SimpleSituation</em>s have a <em>choices</em>
-          option. If it is set to one or more tags, it handles the building
-          of the choice list.</p>
-        <p>You've seen this already in the topic list. The topic list
-          is generated automatically. All of the situations in the topic
-          list are always available, however.
-          <span class="transient">So here is an example of
-          automatic options that may change:</span></p>
-      </div>
-
-      <div id="example-choices" class="situation" data-choices="#example">
-        <p class="transient">You can return to the
-          <a href='hub'>Topic List</a> or choose another option from
-          this example:</p>
-      </div>
-    </div>                                                                      /*hasta aqui
 
     <!-- Diese Anweisungen laden die noetigen Javascript-Bibliotheken -->
     <script type="text/javascript" src="media/js/jquery-2.1.3.min.js"></script>
@@ -245,6 +205,6 @@
 
     <!-- Aendere den Namen der folgenden Datei; sie ist die wichtigste deines Spiels. -->
     <script type="text/javascript"
-            src="media/games/tutorial/rwgy.game.js"></script>
+            src="media/games/tutorial/tutorial.game.de.js"></script>
   </body>
 </html>
