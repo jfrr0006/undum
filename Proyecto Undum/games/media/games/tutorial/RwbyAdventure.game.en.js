@@ -195,8 +195,7 @@ Casi te pod&iacute;as dar por satisfecho con tan solo aquella mezcla de fraganci
             "<p>\
         <br>Sin comerlo ni beberlo, aquella joven de pelo corto y oscuro se hab&iacute;a puesto a soltarte la\
         chapa de tu vida, lo &uacute;nico que sacaste en claro es que se llamaba Ruby y que, como\
-        pudiste comprobar, socializar no era su fuerte.\
-        and 'Estudiante' is using just a check-mark.</br></p>\
+        pudiste comprobar, socializar no era su fuerte.\</p>\
         \
         <p>Antes de que siquiera pudieras contestarle y decirle tu nombre, el director encendi&oacute; una \
            pantalla enorme en la que se pod&iacute;an ver los diferentes huecos de los que ser&iacute;an los equipos. \
@@ -550,7 +549,7 @@ Tras un no demasiado largo periodo de tiempo, llegaste a la entrada de otra cuev
     "rechazas-mision": new undum.SimpleSituation(
             "<h1>Rechazar ir a la misi&oacute;n para empezar tu entrenamiento en pareja en la academia</h1>\
              <p>Sinceramente, te sientes de todo menos preparado para ir a emprender una misi&oacute;n urgente. \
-                A&uacute;n no has recibido tu entrenamiento, de hecho, ni siquiera hab&iacute;s empezado y te acababan de asignar a tu compa&ntilde;ra. \
+                A&uacute;n no has recibido tu entrenamiento, de hecho, ni siquiera hab&iacute;as empezado y te acababan de asignar a tu compa&ntilde;era. \
                 Quiz&aacute;s no era la compa&ntilde;era perfecta, pero s&iacute; que era quien te iba a acompa&ntilde;ar durante un largo periodo de tiempo, y tampoco te parec&iacute;a buena idea dejarla tirada. \
                 Tu lugar era estar en la academia como estudiante que eres, y siendo as&iacute; rechazas definitivamente el ir a la misi&oacute;n.</p> \
              <p>El cazador que hab&iacute;a acudido en tu b&uacute;squeda lo entiende, y procede a buscar a otro que sea capaz de encargarse de una misi&oacute;n como esa, un peque&ntilde;o atisbo de decepci&oacute;n pod&iacute;a intuirse en su forma de contestarte</p>\
@@ -558,9 +557,9 @@ Tras un no demasiado largo periodo de tiempo, llegaste a la entrada de otra cuev
             ),
 
     "siguiente": new undum.SimpleSituation(
-            "<p>Ahora s&iacute;, tu real y primer d&iacute; en la academia estaba por comenzar. \
-                Saludaste a Ruby nada m&aacute;s despertar, ambos hab&iacute;is pasado una noche algo tenebrosa con miedo a que aquellas literas mal colocadas se os pudieran estampar en la frente en cualquier momento, pero al menos eso os di&oacute; algo de lo que hablar durante esa ma&ntilde;ana y sobre lo que re&iacute;ros un buen rato. \
-                La hiperactividad de Ruby segu&iacute; siendo ciertamente llamativa, pero eso tambi&eacute;n hac&iacute; que tu d&iacute; se llenase de algo de energ&iacute;. \
+            "<p>Ahora s&iacute;, tu real y primer d&iacute;a en la academia estaba por comenzar. \
+                Saludaste a Ruby nada m&aacute;as despertar, ambos hab&iacute;ais pasado una noche algo tenebrosa con miedo a que aquellas literas mal colocadas se os pudieran estampar en la frente en cualquier momento, pero al menos eso os di&oacute; algo de lo que hablar durante esa ma&ntilde;ana y sobre lo que re&iacute;ros un buen rato. \
+                La hiperactividad de Ruby segu&iacute;a siendo ciertamente llamativa, pero eso tambi&eacute;n hac&iacute;a que tu d&iacute;a se llenase de algo de energ&iacute;. \
                 Al poco de despertar, ella misma se encarg&oacute; de hacer el desayuno de ambos, d&aacute;ndote una grata sorpresa con unas tortitas que ten&iacute;an una pinta maravillosa. \
                 <p><center><img src='media/img/postre.png'></center></p> \
              <br><p>Poco despu&eacute;s procedisteis a la sala de entrenamiento, donde junto otros equipos y parejas comenzasteis a entrenar y desarrollar vuestras habilidades con distintas armas, piruetas y t&eacute;nicas que podr&iacute;n resultar bastante &uacute;iles de cara a un combate contra un Grimm. \
